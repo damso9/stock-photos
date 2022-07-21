@@ -7,7 +7,9 @@ const pageUrl = "&page=";
 const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
 
-const clientID = `?client_id=${process.env.REACT_APP_API_KEY}`;
+// const clientID = `?client_id=${process.env.REACT_APP_API_KEY}`;
+
+const clientID = `?client_id=xjFBX-XckAzqAYJBheiT3-pZ6btvZtLWpbt57mBBckU`;
 
 function App() {
   const [photos, setPhotos] = useState([]);
